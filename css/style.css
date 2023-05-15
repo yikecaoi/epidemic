@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	/*居中*/
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	background: white;
+	min-width: 1280px;
+}
+
+
+/*.header {
+	width: 100%;
+	height: 50px;
+	background-color: #f2f2f2;
+	line-height: 50px;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}*/
+
+
+
+
+/*底层盒子*/
+
+.container {
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+.main {
+	width: 100%;
+	box-sizing: border-box;
+	background: #E1F5FE;
+	padding: 0 15px;
+	box-shadow: black 0px 0px 10px;
+	}
+
+.main-item {
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.main-item img {
+	width: 100%;
+	display: block;
+}
+
+
+/*插入的医院图*/
+
+.photo {
+	margin: 0 auto;
+	width: 75%;
+}
+.bigbox{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	background: #B3E5FC;
+	margin: 0 auto;
+}
+.sbox{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	padding: 10px 25px;
+	text-align: left;
+	box-sizing: border-box;
+	background: white;
+	border-radius: 10px;
+}
+.sbox p{
+	text-align: left;
+	text-indent: 2em;
+	line-height: 2;
+}
+/*圆弧框*/
+
+.main-box1 {
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	padding: 0 15px;
+	text-align: left;
+	box-sizing: border-box;
+	background: #B3E5FC;
+	border-radius: 10px;
+}
+
+
+/*rgb(44,166,224,0.35)*/
+
+.main-box1 p {
+	text-align: left;
+	text-indent: 2em;
+	line-height: 2;
+}
+
+
+/*小节图*/
+
+.main-box2 {
+	width: 100%;
+	height: auto;
+	padding: 0 15px;
+	text-align: left;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.main-box2 img {
+	width: 60%;
+}
+
+.charts {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.red {
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background: red;
+	text-align: center;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	color: white;
+	letter-spacing: 10px;
+	
+}
+
+.left {
+	float: left;
+	width: 40%;
+	padding: 0 15px;
+	margin-left: 8%;
+	background: aliceblue;
+	border-radius: 10px;
+	height: 500px;
+}
+
+
+.left h1 {
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+h1{
+	color: darkred;
+	font-size: 25px;
+}
+.left p {
+	text-align: left;
+	text-indent: 2em;
+	line-height: 2;
+}
+
+.right {
+	margin-left: 40%;
+	margin-right: 8%;
+	height: 500px;
+}
+.left1 {
+	float: left;
+	width: 40%;
+	padding: 7% 15px;
+	margin-left: 5%;
+	border-radius: 10px;
+
+}
+.right1 {
+	margin-left: 30%;
+
+	height: 500px;
+}
+.blue {
+	width: 80%;
+	height: 70px;
+	background: #082060;
+	margin: 0 auto;
+}
+
+.blue p {
+	text-align: center;
+	color: white;
+	line-height: 70px;
+	font-size: 30px;
+	font-family: "arial black";
+}
+hr{
+	width: 80%;
+color: black;
+}
+.footer {
+	width: auto;
+	height: auto;
+ background:#333333;
+	line-height: 20px;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	margin: 0 auto;
+	padding: 20px 20px;
+box-shadow: black 0px 0px 10px;
+
+}
+.footer h1{
+	font-size: 15px;
+	color: white;
+
+}
+.footer p{
+	margin-left: 10px;
+	font-size:8px ;
+}
+.footer-left{
+		float: left;
+	width: 70%;
+	height: 300px;
+}
+.footer-right{
+	margin-left: 75%;
+	height: 300px;
+}
+
+
+.footerbox{
+
+}
+
+.from{
+	font-size: 14px;
+	margin-left: 30px;
+	font-family: "微软雅黑";
+}
+.endbox{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	padding: 0 15px;
+	text-align: left;
+	box-sizing: border-box;
+	background: white;
+	border-radius: 10px;
