@@ -8,7 +8,7 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 25px;
 	background: white;
-	min-width: 1280px;
+	min-width: 800px;
 }
 
 
@@ -226,11 +226,11 @@ box-shadow: black 0px 0px 10px;
 .footer-left{
 		float: left;
 	width: 70%;
-	height: 300px;
+	height: 320px;
 }
 .footer-right{
 	margin-left: 75%;
-	height: 300px;
+	height: 320px;
 }
 
 
